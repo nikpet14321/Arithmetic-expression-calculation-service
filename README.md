@@ -57,7 +57,7 @@ curl --location 'http://localhost:8080/api/v1/calculate' \
 
 Пример правильного использования на Windows:
 
-1. Откройте PowerShell и введите команду, но изменённую под Windows
+1. Откройте PowerShell и введите команду:
 
 ```
 Invoke-RestMethod `
@@ -67,7 +67,7 @@ Invoke-RestMethod `
   -ContentType "application/json"
 
 ```
-2. Откройте cmd (Win + R) и введите команду, но изменённую под Windows
+2. Откройте cmd (Win + R) и введите команду:
 ```
 curl --location "http://localhost:8080/api/v1/calculate" --header "Content-Type: application/json" --data "{\"expression\":\"2+2*2\"}"
 ```
